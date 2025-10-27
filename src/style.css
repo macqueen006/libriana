@@ -111,6 +111,10 @@
         background: linear-gradient(110deg, rgba(29, 7, 2, 1) 25%, rgba(146, 36, 9, 1) 65%, rgba(29, 7, 2, 1) 100%);
     }
 
+    .check {
+        @apply border border-red-500;
+    }
+
 }
 
 @layer components {
